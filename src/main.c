@@ -7,8 +7,8 @@ int main(void)
     while (!WindowShouldClose())
     {
         BeginDrawing();
-            ClearBackground(RAYWHITE);
-            DrawText("Welcome to Monkecraft!", 190, 200, 20, BROWN);
+            ClearBackground(BROWN);
+            DrawText("Welcome to Monkecraft!", 190, 200, 20, GREEN);
         EndDrawing();
     }
 
