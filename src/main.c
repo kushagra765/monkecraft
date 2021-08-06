@@ -8,7 +8,7 @@ int main(void)
     {
         BeginDrawing();
             ClearBackground(RAYWHITE);
-            DrawText("Welcome to Monkecraft!", 190, 200, 20, LIGHTGRAY);
+            DrawText("Welcome to Monkecraft!", 190, 200, 20, BROWN);
         EndDrawing();
     }
 
