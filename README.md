@@ -9,7 +9,7 @@ A Minecraft (R)-like game.
 ```sh
 git clone https://github.com/monkelab/monkecraft/
 cd monkecraft
-make all
+make
 ```
 ## Running
 There ain't much rn but here:
@@ -18,8 +18,9 @@ There ain't much rn but here:
 ./monkecraft
 ```
 ## TODO
-1. Graphics
-2. Basic gameplay
-3. Add support for Minecraft clients so you can join servers and stuff (can it even be done?)
+1. Fix this stupid fucking workflow
+2. Graphics
+3. Basic gameplay
+4. Add support for Minecraft clients so you can join servers and stuff (can it even be done?)
 ## Credits:
 1. @segfaultdev for answering my questions on how to create games and stuff.
