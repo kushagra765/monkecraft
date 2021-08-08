@@ -12,6 +12,7 @@ int main(void)
         BeginDrawing();
             ClearBackground(BROWN);
             DrawText("Welcome to Monkecraft!", 190, 200, 20, GREEN);
+            //drawCube()
         EndDrawing();
     }
 
