@@ -2,6 +2,7 @@
 
 CC=gcc
 SRC=./src
+INCLUDES=-I ./include
 
 all:
-	$(CC) $(SRC)/main.c -o monkecraft
+	$(CC) $(SRC)/main.c $(INCLUDES) -o monkecraft
