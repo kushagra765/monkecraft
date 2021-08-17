@@ -1,21 +1,7 @@
-TARGET ?= main
-SRC_DIRS ?= ./src
-CC = gcc
+# Stupid makefile
 
-SRCS := $(shell find $(SRC_DIRS) -name *.c)
-OBJS := $(addsuffix .o,$(basename $(SRCS)))
+CC=gcc
+SRC=./src
 
-CFLAGS ?= -Wall -Wextra -Iinclude/
-
-%.o: %.c
-	@echo [ CC ] $<
-	@$(CC) $(CFLAGS) -c $< -o $@
-
-$(TARGET): $(OBJS)
-
-	@echo [ BIN ] $<
-	@$(CC) $(OBJS) -o $@
-
-.PHONY: clean
-clean:
-	$(RM) $(TARGET) $(OBJS)
+all:
+	$(CC) $(SRC)/main.c -o monkecraft
