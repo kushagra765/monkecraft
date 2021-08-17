@@ -20,10 +20,11 @@ int main(void)
     /* While esc hasn't been pressed or the close window button hasn't been pressed */
     while (!WindowShouldClose())
     {
+        UpdateCamera(&camera); // updates camera
         BeginDrawing();
+            BeginMode3D(camera);
             ClearBackground(SKYBLUE);
             DrawText("Welcome to Monkecraft!", 190, 200, 20, GREEN);
-            UpdateCamera(&camera); // updates camera
         EndDrawing();
     }
 
