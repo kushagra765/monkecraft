@@ -16,6 +16,9 @@ int main(void)
     // 1st person
     
     SetCameraMode(camera, CAMERA_FIRST_PERSON);
+    
+    // Set exit key to a nonexistant key
+    SetExitKey(KEY_NULL);
 
     /* While esc hasn't been pressed or the close window button hasn't been pressed */
     while (!WindowShouldClose())
