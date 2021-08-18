@@ -1,3 +1,9 @@
+/********************************************************************************
+ * Code for Monkecraft!! A lot of code is also from Raylib examples so that's a *
+ * big help and a big thank you.                                                *
+ * (c) 2021 gnuoveryou and (c) 2013-2021 raysan5                                *
+ ********************************************************************************/
+
 #include <raylib.h>
 
 int main(void)
