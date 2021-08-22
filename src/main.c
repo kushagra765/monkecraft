@@ -33,12 +33,13 @@ int main(void)
         BeginDrawing();
             BeginMode3D(camera);
             ClearBackground(SKYBLUE);
+            /* hello world */
             DrawText("Welcome to Monkecraft!", 20, 20, 10, GREEN);
         EndDrawing();
     }
 
     CloseWindow();
 
-    /* Goodbye */
+    /* Goodbye world */
     return 0;
 }
