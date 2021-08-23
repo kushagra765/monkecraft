@@ -18,9 +18,9 @@ There ain't much rn but here:
 ./monkecraft
 ```
 ## TODO
-- [x] Fix this stupid fucking workflow (fixed by deleting it)
-- [ ] Graphics
-- [ ]  Basic gameplay
+- [x] Fix this stupid workflow (fixed by deleting it)
+- [ ] Graphics (in progress)
+- [ ] Basic gameplay
 - [ ] Add support for Minecraft clients so you can join servers and stuff
 ## Credits:
 1. @segfaultdev for answering my questions on how to create games and stuff.
