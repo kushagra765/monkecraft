@@ -5,6 +5,7 @@
  ********************************************************************************/
 
 #include <raylib.h>
+#include <monkecraft.h>
 
 int main(void)
 {
@@ -25,11 +26,6 @@ int main(void)
     
     // Set exit key to a nonexistant key
     SetExitKey(KEY_NULL);
-    
-    // World size (2x2x2 for now)
-    #define MAX_WIDTH 2 // x
-    #define MAX_HIGHT 2 // y
-    #define MAX_DEPTH 2 // z
 
     /* While esc hasn't been pressed or the close window button hasn't been pressed */
     while (!WindowShouldClose())
