@@ -9,7 +9,7 @@ A Minecraft (R)-like game.
 ```sh
 git clone https://github.com/monkelab/monkecraft/
 cd monkecraft
-make
+make all
 ```
 ## Running
 There ain't much rn but here:
