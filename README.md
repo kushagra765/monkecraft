@@ -21,6 +21,9 @@ There ain't much rn but here:
 - [x] Fix this stupid workflow (fixed by deleting it)
 - [ ] Graphics (in progress)
 - [ ] Basic gameplay
-- [ ] Add support for Minecraft clients so you can join servers and stuff
+- [ ] Multiplayer support
+- [ ] Mobs
+- [ ] Mods
+- [ ] Support for Minecraft clients so you can join servers and stuff
 ## Credits:
 1. @segfaultdev for answering my questions on how to create games and stuff.
