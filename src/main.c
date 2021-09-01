@@ -24,6 +24,10 @@ int main(void)
     
     SetCameraMode(camera, CAMERA_FIRST_PERSON);
     
+    // Block stuff
+    
+    Vector3 blockPosition = { 0.0f, 0.0f, 0.0f };
+    
     // Set exit key to a nonexistant key
     SetExitKey(KEY_NULL);
 
