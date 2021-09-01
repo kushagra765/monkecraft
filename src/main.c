@@ -36,10 +36,12 @@ int main(void)
     {
         UpdateCamera(&camera); // updates camera
         BeginDrawing();
-            BeginMode3D(camera);
             ClearBackground(SKYBLUE);
             /* hello world */
             DrawText("Welcome to Monkecraft!", 20, 20, 10, GREEN);
+                BeginMode3D(camera);
+                    DrawCube((Vector3) blockPosition, 5, 5, 5, BROWN);
+                EndMode3D();
         EndDrawing();
     }
 
